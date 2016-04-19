@@ -16,7 +16,7 @@ body{
 
 .imagen img{
 	height: 300px;
-	border-radius: 400px;
+	border-radius: 50%;
 }
 
 .imagen{
@@ -26,7 +26,8 @@ body{
 
 h2{
 	text-align: center;
-	padding: 10px;
+	padding: 0px
+	margin 0px;
 	color: #2D413E;
 	font-family: Monaco;
 }
@@ -44,6 +45,10 @@ h3 {
 }
 
 h3{
+	color: #2D413E;
+}
+
+.contacto{
 	color: #2D413E;
 }
 
@@ -65,3 +70,17 @@ p{
 	width: 100%;
 	font-family: Helvetica;
 }
+
+.boton{
+	text-align: center;
+	background-color: #1CCB4B;
+	border-radius: 10px;
+	padding: 8px;
+	color: white;
+	font-family: Monaco;
+}
+
+.boton:hover{
+	opacity: .6;
+}
+
