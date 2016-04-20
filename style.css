@@ -5,6 +5,7 @@ body{
 	background-image: url("banana.jpg");
 	background-color: rgba(255, 255, 255, 0.5);
   	background-blend-mode: overlay;
+  	height: 100%;
 }
 
 .container{
@@ -63,28 +64,40 @@ p{
 	text-align: center;
 }
 
+form{
+	padding: 0px 20px;
+	margin: 5px;
+}
+
 .nombre{
 	width: 100%;
 	font-family: Helvetica;
+	border-radius: 9px;
 }
 
 .mail{
 	width: 100%;
 	font-family: Helvetica;
+	border-radius: 5px;
 }
 
 .mensaje{
 	width: 100%;
 	font-family: Helvetica;
+	border-radius: 5px;
+	margin: 0px 0px 0px 0px;
 }
 
 .boton{
 	text-align: center;
 	background-color: #1CCB4B;
 	border-radius: 10px;
-	padding: 8px;
+	padding: 6px;
 	color: white;
 	font-family: Monaco;
+	font-size: 14px;
+	te
+	margin: 0px 25px 20px 25px;
 }
 
 .boton:hover{
